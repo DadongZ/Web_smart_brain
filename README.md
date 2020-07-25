@@ -1,1 +1,1 @@
-# Web_smart_brain
+# A webapp for face recognition
