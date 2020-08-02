@@ -1,4 +1,5 @@
 import React from 'react'
+import './ImageLinkForm.css'
 
 const ImageLinkForm = ({onInputChange, onButtonSubmit}) => {
     return (
@@ -6,9 +7,9 @@ const ImageLinkForm = ({onInputChange, onButtonSubmit}) => {
             <p className='f3'>
                 {'This Majic Brain will recognize the face in your pictures. Paste your picture.'}
             </p>
-            <div className="center">
-                <input  className='f4 pa2 w-30 center' type='tex' onChange={onInputChange}/>
-                <button className='w-10 grow f3 link ph2 pv1 dib white bg-purple pointer'
+            <div className="form center pa4 br3">
+                <input  className='f4 pa2 w-70 center' type='tex' onChange={onInputChange}/>
+                <button className='w-30 grow f3 link ph2 pv1 dib white bg-purple pointer'
                         onClick={onButtonSubmit}>
                         Detect
                 </button>
